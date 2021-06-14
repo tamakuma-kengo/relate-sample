@@ -14,7 +14,7 @@ chunks:
 
     content: |
         # 積分1
-        <img src="repo:images/suuretu.JPG">
+        <img src="repo:images/suuretu.jpg">
 
         １．１　数列の和：[学習コンテンツ](flow:001-linalg-recap)
         
