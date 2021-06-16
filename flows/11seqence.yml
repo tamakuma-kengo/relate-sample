@@ -1,5 +1,6 @@
 title: "Seqence"
 description: |
+
     # Seqence
     
 rules:
@@ -14,7 +15,7 @@ pages:
 
 -
     type: Page
-    id: intro
+    id: seqence1
     content: |
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
