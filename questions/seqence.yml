@@ -1,4 +1,4 @@
-type: SeqenceQuestion
+type: MultipleChoiceQuestion
 id: seqenceQ
 value: 1
 shuffle: False
