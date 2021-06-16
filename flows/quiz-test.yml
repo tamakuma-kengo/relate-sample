@@ -83,7 +83,7 @@ groups:
           - <plain>a half
 
     -
-        {{ indented_include("questions/krylov.yml", 8) }}
+        {{ indented_include("questions/seqence.yml", 8) }}
 
     -
         type: MultipleChoiceQuestion
@@ -109,7 +109,7 @@ groups:
         {{ indented_include("questions/matrix-properties.yml", 8) }}
 
     -
-        {{ indented_include("questions/seqence.yml", 8) }}
+        {{ indented_include("questions/multi-question-example.yml", 8) }}
 
     -
         type: SurveyTextQuestion
