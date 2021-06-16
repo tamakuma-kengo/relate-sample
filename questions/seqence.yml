@@ -1,6 +1,6 @@
 type: MultipleChoiceQuestion
 id: seqenceQ
-value: 2
+value: 1
 shuffle: False
 credit_mode: proportional
 prompt: |
