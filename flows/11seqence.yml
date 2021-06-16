@@ -1,21 +1,7 @@
-title: "Seqence"
-description: |
-    # Seqence
-
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
-
-pages:
-
--
-    type: Page
-    id: seqence1
-    content: |
+type: Seqence
+id: seqence1
+value: 1
+content: |
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
         その連続する和を$\sum_{k=1}^{n}a_k$と示す。
@@ -29,28 +15,3 @@ pages:
         ゆえに、
         \sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\
         となる。
-
--
-    type: Page
-    id: seqence2
-    content: |
-
-        # 準備中
-
-        数列の２乗、３乗の公式を書く
-
--
-    type: Page
-    id: seqence3
-    content: |
-
-        # 準備中
-
-        練習問題
-
-
-completion_text: |
-
-    # End of Linear Algebra Recap
-
-    学習が完了した場合、[確認テスト](flow:quiz-test)を受けてください。
