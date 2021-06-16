@@ -14,7 +14,7 @@ pages:
 
 -
     type: Page
-    id: seqence1
+    id: intro
     content: |
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
