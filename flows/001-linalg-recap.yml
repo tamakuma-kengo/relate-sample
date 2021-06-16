@@ -1,108 +1,38 @@
-title: "Linear Algebra"
+title: "Seqence"
 description: |
-    # Linear Algebra Recap
-
+    # Seqence
 rules:
     access:
     -
         if_has_role: [student, ta, instructor]
         permissions: [view]
-
     grade_identifier: null
-
 pages:
-
 -
     type: Page
-    id: intro
+    id: seqence1
     content: |
-
-        # A little distraction to start
-
-        Yadda yadda.
-
-        {% from "content-macros.jinja" import youtube %}
-        {{ youtube("QH2-TGUlwu4") }}
-
+        $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
+        その連続する和を$\sum_{k=1}^{n}a_k$と示す。
+        $\sum_{k=1}^{n}k$の場合、総和は$1+2+\cdots+n$となる。
+        Sn=1+2+3+\cdots+n-1+n
+        $Sn=n+n-1+n-2+\cdots2+1$　であるため、
+        $2Sn=n+1 + n+1 +\cdots+n+1$というように(n+1)がn個足されることがわかる。
+        ゆえに、
+        \sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\
+        となる。
 -
     type: Page
-    id: vectors
+    id: seqence2
     content: |
-
-        # Vectors
-
-        A vector is pretty straight.
-
-
+        # 準備中
+        数列の２乗、３乗の公式を書く
 -
     type: Page
-    id: ipynb
+    id: seqence3
     content: |
-
-      # Ipython notebook render examples
-
-      The following examples were using [this ipynb file](repocur:ipynbs/Ipynb_example.ipynb) in `ipynbs` folder of this repo.
-
-      ## Fully rendered
-      
-      The following markdown was used to render the full notebook:
-      
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}
-
-      ## Sliced
-
-      We can choose which cells (by their 0-based indices) to be rendered with arg `indices`.
-
-      For example, cells 0 through 4 can be rendered with the following markdown:
-
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=[0,1,2,3,4]) }}' }}
-      ```
-
-      Or using `jinja2` built-in function [`range`](http://jinja.pocoo.org/docs/2.9/templates/#range):
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}
-
-      ## With markdown cleared
-
-      Use `clear_markdown` to get the result with content of *all* markdown cells cleared:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}
-
-      ## With code execution output cleared
-
-      Use `clear_output` to get the result with output of *all* code cells cleared:
-
-      Result:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}' }}
-      ```
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}
-
-
+        # 準備中
+        練習問題
 completion_text: |
-
     # End of Linear Algebra Recap
-
-    Now you're ready to take the [quiz](flow:quiz-test).
+    学習が完了した場合、[確認テスト](flow:quiz-test)を受けてください。
