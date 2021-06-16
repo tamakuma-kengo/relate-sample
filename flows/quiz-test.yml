@@ -83,7 +83,7 @@ groups:
           - <plain>a half
 
     -
-        {{ indented_include("questions/krylov.yml", 8) }}
+        {{ indented_include("questions/seqence.yml", 8) }}
 
     -
         type: MultipleChoiceQuestion

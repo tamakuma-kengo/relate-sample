@@ -1,5 +1,5 @@
-type: MultipleChoiceQuestion
-id: matrix_props
+type: SeqenceQuestion
+id: seqenceQ
 value: 1
 shuffle: False
 credit_mode: proportional
