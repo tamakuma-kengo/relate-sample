@@ -1,19 +1,21 @@
-chunks:
+title: "Seqence1"
+description: |
+    # 数列の和
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
 
 -
-    title: "Welcome to the sample course"
-    id: welcome
-    rules:
-    -
-        if_after: end_week 3
-        if_before: 2038-01-01 13:00:00 -5
-        weight: 100
-
-    -
-        weight: 0
-
+    type: Page
+    id: seqence1
     content: |
-        # 数列の和
         <img src="repo:images/suuretu.jpg">
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
@@ -29,34 +31,9 @@ chunks:
         $\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$
         となる。
 
-
-        Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
-        In addition to interactive content, RELATE also supports [static (i.e.
-        non-interactive) pages](staticpage:test).
-        Remember, this image shows the model that RELATE is trying to put out
-        of business:
-        <img src="repo:images/classroom.jpeg">
-        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
-        <div class="well" markdown="1">
-          *RELATE* <i class="fa fa-heart"></i>
-          <a href="https://djangoproject.com/"><img src="repo:images/django-logo.png"></a>.
-          (Note that all of this is sample content. RELATE does not clutter
-          your course page with information about itself.)
-        </div>
 -
-    title: "Exam pointer"
+completion_text: |
 
-    id: exam_pointer
-    rules:
-    -
-        if_in_facility: test_center
-        if_after: 2015-06-01
-        weight: 200
+    # End of Linear Algebra Recap
 
-    -
-        shown: False
-        weight: 0
-
-    content: |
-        # Welcome to the computer-based testing facility!
-        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>
+    [確認テスト](flow:quiz-test)はこちらです。
