@@ -13,21 +13,23 @@ chunks:
         weight: 0
 
     content: |
-        # 積分1
+        # 数列の和
         <img src="repo:images/suuretu.jpg">
 
-        １．１　数列の和：[学習コンテンツ](flow:11seqence)
-        
-        １．２　数列の和の極限：[学習コンテンツ](flow:001-linalg-recap)
-        
-        １．３　リーマン和：[学習コンテンツ](flow:001-linalg-recap)
-        
-        １．４　定積分：[学習コンテンツ](flow:001-linalg-recap)
-        
-        １．５　不定積分：[学習コンテンツ](flow:001-linalg-recap)
+        $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
+        その連続する和を$\sum_{k=1}^{n}a_k$と示す。
 
-        １．６　[確認テスト](flow:quiz-test)
-        
+
+        $\sum_{k=1}^{n}k$の場合、総和は1+2+...+nとなる。
+        Sn=1+2+3+...+n-1+n
+        Sn=n+n-1+n-2+...2+1　であるため、
+        2Sn=n+1 + n+1 +...+n+1というように(n+1)がn個足されることがわかる。
+
+        ゆえに、
+        $\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$
+        となる。
+
+
         Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
         In addition to interactive content, RELATE also supports [static (i.e.
         non-interactive) pages](staticpage:test).
