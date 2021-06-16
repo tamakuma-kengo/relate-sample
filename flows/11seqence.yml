@@ -1,4 +1,4 @@
-title: "RELATE Test Exam"
+title: "Seqence1"
 description: |
     # 数列の和
 
@@ -15,6 +15,7 @@ pages:
 -
     type: Page
     id: seqence1
+    value: 1
     content: |
         <img src="repo:images/suuretu.jpg">
 
