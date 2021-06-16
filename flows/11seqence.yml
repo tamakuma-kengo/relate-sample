@@ -1,5 +1,4 @@
-title: "Seqence"
-id: seqence
+title: "Seqence Practice"
 description: |
 
     # Seqence
@@ -9,25 +8,46 @@ rules:
     -
         if_has_role: [student, ta, instructor]
         permissions: [view]
-        weight: 100
-    -
 
+    grade_identifier: null
 
-content: |
+pages:
 
+-
+    type: Page
+    id: seqence1
+    content: |
+    
 
-    $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
-    その連続する和を$\sum_{k=1}^{n}a_k$と示す。
+        $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
+        その連続する和を$\sum_{k=1}^{n}a_k$と示す。
 
-    $\sum_{k=1}^{n}k$の場合、総和は$1+2+\cdots+n$となる。
-    $$Sn=1+2+3+\cdots+n-1+n$$
-    $Sn=n+n-1+n-2+\cdots2+1$　であるため、
-    $2Sn=n+1 + n+1 +\cdots+n+1$というように(n+1)がn個足されることがわかる。
+        $\sum_{k=1}^{n}k$の場合、総和は$1+2+\cdots+n$となる。
+        $$Sn=1+2+3+\cdots+n-1+n$$
+        $Sn=n+n-1+n-2+\cdots2+1$　であるため、
+        $2Sn=n+1 + n+1 +\cdots+n+1$というように(n+1)がn個足されることがわかる。
 
-    ゆえに、
-    $$\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$$
-    となる。
+        ゆえに、
+        $$\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$$
+        となる。
 
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        # 準備中
+
+        数列の２乗、３乗の公式を書く
+
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        # 準備中
+
+        練習問題
 
 completion_text: |
 
