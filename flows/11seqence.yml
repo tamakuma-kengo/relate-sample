@@ -16,6 +16,7 @@ pages:
     type: Page
     id: seqence1
     content: |
+        ```math
 
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
@@ -30,6 +31,7 @@ pages:
         ゆえに、
         $\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$
         となる。
+        ```
 
 -
     type: Page
