@@ -16,6 +16,7 @@ pages:
     type: Page
     id: seqence1
     content: |
+
         <img src="repo:images/suuretu.jpg">
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
@@ -30,6 +31,7 @@ pages:
         ゆえに、
         $\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$
         となる。
+
 -
     type: Page
     id: seqence2
@@ -53,4 +55,4 @@ completion_text: |
 
     # End of Linear Algebra Recap
 
-    [確認テスト](flow:quiz-test)はこちらです。
+    学習が完了した場合、[確認テスト](flow:quiz-test)を受けてください。
