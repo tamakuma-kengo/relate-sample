@@ -1,0 +1,26 @@
+type: MultipleChoiceQuestion
+id: matrix_props
+value: 1
+shuffle: False
+credit_mode: proportional
+prompt: |
+
+    # 数列の和
+
+    次の数列の総和を求め、解答を複数選択しなさい。
+
+    
+    ・$\sum_{k=1}^{n}(k^3+k)$
+
+    ・$\sum_{k=1}^{n-1}(k^2+2)$
+
+    ・$\sum_{k=1}^{10}(3k^2-1)$
+
+choices:
+
+  - ~CORRECT~ $\frac{1}{2}n(n+1)(n^2+n+2)$
+  - ~CORRECT~ $\frac{1}{6}(n-1)(2n^2-n+12)$
+  - ~CORRECT~ $1145$
+  - $\frac{1}{6}(n-1)n(2n-1)$
+  - $2042
+

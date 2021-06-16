@@ -20,17 +20,21 @@ pages:
 
         #数列の式
 
+
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
+
         その連続する和を$\sum_{k=1}^{n}a_k$と示す。
 
         $\sum_{k=1}^{n}k$の場合、総和は$1+2+\cdots+n$となる。
-        $$Sn=1+2+3+\cdots+n-1+n$$
+
+
+        $Sn=1+2+3+\cdots+n-1+n$
+
         $Sn=n+n-1+n-2+\cdots2+1$　であるため、
+
         $2Sn=n+1 + n+1 +\cdots+n+1$というように(n+1)がn個足されることがわかる。
 
-        ゆえに、
-        $$\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$$
-        となる。
+        ゆえに、$$\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$$となる。
 
 -
     type: Page
@@ -52,6 +56,6 @@ pages:
 
 completion_text: |
 
-    # End of Linear Algebra Recap
+    # 説明は終了です。
 
     学習が完了した場合、[確認テスト](flow:quiz-test)を受けてください。
