@@ -1,6 +1,6 @@
-title: "Linear Algebra"
+title: "Seqence"
 description: |
-    # 数列の和
+    # Seqence
 
 rules:
     access:
@@ -17,7 +17,6 @@ pages:
     id: seqence1
     content: |
 
-        <img src="repo:images/suuretu.jpg">
 
         $a_1$から$a_n$までの連続する数の和を$S_n$としたとき、
         その連続する和を$\sum_{k=1}^{n}a_k$と示す。
