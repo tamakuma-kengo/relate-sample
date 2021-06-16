@@ -14,7 +14,7 @@ pages:
 
 -
     type: Page
-    id: intro
+    id: seqence1
     content: |
 
 
@@ -33,7 +33,7 @@ pages:
 
 -
     type: Page
-    id: vectors
+    id: seqence2
     content: |
 
         # 準備中
@@ -42,7 +42,7 @@ pages:
 
 -
     type: Page
-    id: ipynb
+    id: seqence3
     content: |
 
         # 準備中
