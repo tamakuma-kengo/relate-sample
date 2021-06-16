@@ -9,7 +9,6 @@ rules:
         permissions: [view]
 
     grade_identifier: null
-    weight: 0
 
 pages:
 
