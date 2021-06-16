@@ -1,4 +1,4 @@
-title: "Linear Algebra"
+title: "Seqence"
 description: |
     # 数列の和
 
@@ -30,6 +30,23 @@ pages:
         ゆえに、
         $\sum_{k=1}^{n}k=1+2+3+\cdots+n=\frac{n(n+1)}{2}\\$
         となる。
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        # 準備中
+
+        数列の２乗、３乗の公式を書く
+
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        # 準備中
+
+        練習問題
 
 
 completion_text: |
