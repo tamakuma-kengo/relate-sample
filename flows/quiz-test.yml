@@ -124,33 +124,7 @@ groups:
     -
         {{ indented_include("questions/survey-age-question.yml", 8) }}
 
--
-    id: quiz_tail
-    shuffle: True
-    pages:
 
-    -
-        {{ indented_include("questions/complex-text-match-example.yml", 8) }}
-    -
-        {{ indented_include("questions/symbolic-expression-example.yml", 8) }}
-    -
-        {{ indented_include("questions/long-choice-least-squares.yml", 8) }}
-    -
-        {{ indented_include("questions/autograded-python-example.yml", 8) }}
-    -
-        {{ indented_include("questions/auto-and-human-graded-python-example.yml", 8) }}
-    -
-        {{ indented_include("questions/pdf-file-upload-example.yml", 8) }}
-    -
-        {{ indented_include("questions/any-file-upload-example.yml", 8) }}
-    -
-        {{ indented_include("questions/human-graded-text-example.yml", 8) }}
-    -
-        {{ indented_include("questions/audio-output-example.yml", 8) }}
-    -
-        {{ indented_include("questions/python-complex-validation-test-code.yml", 8) }}
-    -
-        {{ indented_include("questions/non-ascii-choices.yml", 8) }}
 
 completion_text: |
 
