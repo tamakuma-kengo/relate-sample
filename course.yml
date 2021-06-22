@@ -33,11 +33,14 @@ chunks:
 
 
         <table class="table table-striped table-hover">
+        <thead>
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">course name</th>
                 <th scope="col"></th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <th scope="row">1.1</th>
                 <th>数列の和</th>
@@ -53,6 +56,7 @@ chunks:
                     <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
                 </th>
             </tr>
+        </tbody>
         </table>
 
         
