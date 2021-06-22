@@ -30,7 +30,7 @@ chunks:
         $a_1+a_2+a_3+\cdots+a_n=\sum_{k=1}^{n}a_k$
 
         というようにシグマ（Σ）を用いて表す。
-        
+        <div class="container">
             <div class="card" style="width:18rem;">
                 <div class="card-body">
                     <h5 class="card-title">数列の和</h5>
@@ -39,6 +39,7 @@ chunks:
                     <a href="flow:quiz-test" class="btn btn-primary">確認テスト</a>.
                 </div>
             </div>
+        </div>
 
 
         １．１　数列の和：<a href="flow:11seqence" role="button" class="btn btn-default">学習コンテンツ</a>.
