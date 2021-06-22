@@ -69,66 +69,13 @@ groups:
     -
         {{ indented_include("questions/seqence.yml", 8) }}
     -
-        type: TextQuestion
-        id: half
-        value: 5
-        prompt: |
-
-          # A half
-
-          What's a half?
-
-        answers:
-
-          - type: float
-            value: 0.5
-            rtol: 1e-4
-          - <plain>half
-          - <plain>a half
-
-    -
-        type: MultipleChoiceQuestion
-        id: ice_cream_toppings
-        credit_mode: exact
-        value: 1
-        shuffle: False
-        prompt: |
-
-            # Ice Cream Toppings
-
-            Which of the following are ice cream toppings?
-
-        choices:
-
-          - ~CORRECT~ Sprinkles
-          - ~CORRECT~ Chocolate chunks
-          - Vacuum cleaner dust
-          - Spider webs
-          - ~CORRECT~ Almond bits
-
-    -
-        {{ indented_include("questions/matrix-properties.yml", 8) }}
-
-    -
-        {{ indented_include("questions/multi-question-example.yml", 8) }}
-
-    -
-        type: SurveyTextQuestion
-        id: fear
-        widget: textarea
-        prompt: |
-
-            # Psychology Survey
-
-            What's your biggest fear?
-
-    -
-        {{ indented_include("questions/survey-age-question.yml", 8) }}
+        {{ indented_include("questions/max-seqence.yml", 8) }}
 
 
 
 completion_text: |
 
-    # See you in class!
+    # 確認テストは終了です。
 
-    Thanks for completing the quiz.
+    お疲れさまでした！
+    今回の復習や、次回の予習を行いましょう！
