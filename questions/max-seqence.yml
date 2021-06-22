@@ -9,7 +9,7 @@ prompt: |
 
 answers:
 
-  - type: int
+  - type: long
     value: 1
     rtol: 1e-4
   - <plain>half
