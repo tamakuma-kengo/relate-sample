@@ -35,8 +35,8 @@ chunks:
             <div class="card-body">
                 <h5 class="card-title">数列の和</h5>
                 <p class="card-text">サンプルテキスト</p>
-                <a href="flow:11seqence" role="button" class="btn btn-default">学習を始める</a>.
-                <a href="flow:quiz-test" role="button" class="btn btn-default">確認テスト</a>.
+                <a href="flow:11seqence" class="btn btn-primary">学習を始める</a>.
+                <a href="flow:quiz-test" class="btn btn-primary">確認テスト</a>.
             </div>
         </div>
 
