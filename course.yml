@@ -31,6 +31,14 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
         
+        <div class="panel panel-default">
+            <div class="panel-heading">数列の和</div>
+            <div class="panel-body">コメント</div>
+            <div class="panel-footer"><a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a></div>
+        </div>
+
+
+
         <table class="table">
             <tr>
                 <th scope="col">#</th>
