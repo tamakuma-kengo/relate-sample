@@ -31,7 +31,7 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
         
-        <tbody>
+        <table>
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">course name</th>
@@ -51,7 +51,7 @@ chunks:
                     <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
                 </td>
             </tr>
-        </tbody>
+        </table>
 
         
         
