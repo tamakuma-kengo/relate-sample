@@ -53,9 +53,9 @@ groups:
         id: welcome
         content: |
 
-            # Welcome to the test quiz for RELATE!
+            # これから確認テストを開始します。
 
-            Don't be scared.
+            これまでの学習を思い出しながら取り組みましょう！
 
 -
     id: quiz_start
@@ -64,6 +64,10 @@ groups:
 
     # Pages can be given in-line (like this one) or brought in by including
     # them from other files, as below.
+
+
+    -
+        {{ indented_include("questions/seqence.yml", 8) }}
     -
         type: TextQuestion
         id: half
@@ -81,9 +85,6 @@ groups:
             rtol: 1e-4
           - <plain>half
           - <plain>a half
-
-    -
-        {{ indented_include("questions/seqence.yml", 8) }}
 
     -
         type: MultipleChoiceQuestion
