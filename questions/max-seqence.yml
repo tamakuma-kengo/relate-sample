@@ -5,7 +5,7 @@ prompt: |
 
   # 次の数列の和の極限を求めよ
 
-  $\lim_{n \to \infty}\sum_{k=1}^{n}\flac{2k+3}{n^2}$
+  $\lim_{n \to \infty}\sum_{k=1}^{n}\frac{2k+3}{n^2}$
 
 answers:
 
