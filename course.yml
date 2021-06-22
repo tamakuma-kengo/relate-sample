@@ -31,7 +31,7 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
         
-        <table class="table table-condensed">
+        <table class="table">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">course name</th>
