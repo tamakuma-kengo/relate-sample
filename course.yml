@@ -39,18 +39,18 @@ chunks:
             </tr>
             <tr>
                 <th scope="row">1.1</th>
-                <th>数列の和</th>
-                <th>
+                <td>数列の和</td>
+                <td>
                     <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
-                </th>
+                </td>
             </tr>
 
             <tr>
                 <th scope="row">1.2</th>
-                <th>数列の和の極限</th>
-                <th>
+                <td>数列の和の極限</td>
+                <td>
                     <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
-                </th>
+                </td>
             </tr>
         </table>
 
