@@ -15,6 +15,8 @@ chunks:
     content: |
 
         #Week 1
+
+        <hr>
         
         ある規則にしたがって順に並べられた数の列
         $a_1,a_2,a_3\cdots,a_n$を数列という。
