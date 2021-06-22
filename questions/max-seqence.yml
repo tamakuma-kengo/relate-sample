@@ -1,6 +1,6 @@
 type: TextQuestion
 id: half
-value: 5
+value: 1
 prompt: |
 
   # 次の数列の和の極限を求めよ
