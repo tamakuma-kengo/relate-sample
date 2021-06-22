@@ -31,29 +31,28 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
         
-        <div class="table-responsive">
-            <table class="table">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">course name</th>
-                    <th scope="col"></th>
-                </tr>
-                <tr>
-                    <th scope="row">1.1</th>
-                    <th>数列の和</th>
-                    <th>
-                        <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
-                    </th>
-                </tr>
-                <tr>
-                    <th scope="row">1.2</th>
-                    <th>数列の和の極限</th>
-                    <th>
-                        <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
-                    </th>
-                </tr>
-            </table>
-        </div>
+        <table class="table table-condensed">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">course name</th>
+                <th scope="col"></th>
+            </tr>
+            <tr>
+                <th scope="row">1.1</th>
+                <th>数列の和</th>
+                <th>
+                    <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
+                </th>
+            </tr>
+
+            <tr>
+                <th scope="row">1.2</th>
+                <th>数列の和の極限</th>
+                <th>
+                    <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
+                </th>
+            </tr>
+        </table>
 
         
         
