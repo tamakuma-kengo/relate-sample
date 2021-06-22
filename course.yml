@@ -1,4 +1,6 @@
 chunks:
+-
+ <hr>
 
 -
     title: "Welcome to the sample course"
@@ -16,7 +18,6 @@ chunks:
 
         #Week 1
 
-        <hr align="left">
         
         ある規則にしたがって順に並べられた数の列
         $a_1,a_2,a_3\cdots,a_n$を数列という。
