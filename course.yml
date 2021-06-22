@@ -31,14 +31,14 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
         
-        <div class="card" style="width:18rem;">
-            <div class="card-body">
-                <h5 class="card-title">数列の和</h5>
-                <p class="card-text">サンプルテキスト</p>
-                <a href="flow:11seqence" class="btn btn-primary">学習を始める</a>.
-                <a href="flow:quiz-test" class="btn btn-primary">確認テスト</a>.
+            <div class="card" style="width:18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">数列の和</h5>
+                    <p class="card-text">サンプルテキスト</p>
+                    <a href="flow:11seqence" class="btn btn-primary">学習を始める</a>.
+                    <a href="flow:quiz-test" class="btn btn-primary">確認テスト</a>.
+                </div>
             </div>
-        </div>
 
 
         １．１　数列の和：<a href="flow:11seqence" role="button" class="btn btn-default">学習コンテンツ</a>.
