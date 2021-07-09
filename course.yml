@@ -33,7 +33,7 @@ chunks:
 
         [教科書p.1~3](repocur:pdfs/week1.pdf)
         
-        <table class="table" markdown="1">
+        <table class="table">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">course name</th>
