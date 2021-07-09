@@ -18,7 +18,7 @@ chunks:
 
         
         ある規則にしたがって順に並べられた数の列
-        $a_1,a_2,a_3\cdots,a_n$を数列という。
+        $a_1,a_2,a_3\cdots,a_n$を数列といい${a_n}$と表す。
 
         $a_n$のことを項と呼び、$a_1$を第1項（初項）、$a_2$を第2項という。
 
@@ -30,8 +30,10 @@ chunks:
         $a_1+a_2+a_3+\cdots+a_n=\sum_{k=1}^{n}a_k$
 
         というようにシグマ（Σ）を用いて表す。
+
+        [教科書p.1~3](repocur:pdfs/week1.pdf)
         
-        <table class="table">
+        <table class="table" markdown="1">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">course name</th>
