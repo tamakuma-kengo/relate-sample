@@ -54,7 +54,7 @@ pages:
     content: |
 
         #Tips
-        $\displaystyle\sum_{k=1}^{n}k=\frac{1}{2}n(n+1)の証明\\$
+        $\displaystyle\sum_{k=1}^{n}k=\frac{1}{2}n(n+1)\\$の証明
 
         $Sn=1+2+3+\cdots+n-1+n$
 
