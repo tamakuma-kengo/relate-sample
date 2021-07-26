@@ -20,9 +20,9 @@ pages:
 
         #Σの性質
 
-        (1)$\displaystyle\sum_{k=1}^{n}(a_k\pmb_k)=\sum_{k=1}^{n}a_k\pm\sum_{k=1}^{n}b_k$  （複合同順）
+        (1)$\displaystyle\sum_{k=1}^{n}(a_k\pm b_k)=\sum_{k=1}^{n}a_k\pm\sum_{k=1}^{n}b_k$  （複合同順）
 
-        (2)$\displaystyle\sum_{k=1}^{n}(c\cdota_k)=c\cdot\sum_{k=1}^{n}a_k\$  （cは定数）
+        (2)$\displaystyle\sum_{k=1}^{n}(c\cdot a_k)=c\cdot\sum_{k=1}^{n}a_k\$  （cは定数）
 
 
         $\\例\\$
