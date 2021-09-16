@@ -49,9 +49,9 @@ chunks:
 
             <tr>
                 <th scope="row">1.2</th>
-                <th>練習問題</th>
+                <th>復習</th>
                 <th>
-                    <a class="btn btn-primary" href="flow:11seqence" role="button">学習を始める</a>
+                    <a class="btn btn-primary" href="flow:back-flow" role="button">学習を始める</a>
                 </th>
             </tr>
 

@@ -1,0 +1,60 @@
+title: "数列の和"
+description: |
+
+    # 数列の和の復習
+    
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: back-flow-week1
+    content: |
+
+        #数列の性質（線形性）を確認しよう！
+
+        (1)$\displaystyle\sum_{k=1}^{n}(a_k\pm b_k)=\sum_{k=1}^{n}a_k\pm\sum_{k=1}^{n}b_k$  （複合同順）
+
+        (2)$\displaystyle\sum_{k=1}^{n}(c\cdot a_k)=c\cdot \sum_{k=1}^{n}a_k$  （cは定数）
+
+
+        $\\例\\$
+
+        $\cdot \sum_{k=2}^{6}(4k+4)=\sum_{k=2}^{6}4k+\sum_{k=2}^{6}4$
+        
+        $\cdot \sum_{k=2}^{6}4k=4\cdot \sum_{k=2}^{6}k$
+
+        （１）はかっこ（）でくくられた２つの数列の和と差は、もとの２つの数列に分けることができる
+        （２）は数列の全ての項にかけられる定数cは、数列の先頭に出してかけることができる
+
+
+-
+    type: Page
+    id: back-flow-week2
+    content: |
+
+        #数列の和の公式を確認しよう！
+
+        (1)$\displaystyle\sum_{k=1}^{n}c=nc$  (cは定数)
+
+        (2)$\displaystyle\sum_{k=1}^{n}k=\frac{1}{2}n(n+1)$
+
+        (3)$\displaystyle\sum_{k=1}^{n}k^2=\frac{1}{6}n(n+1)(2n+1)$
+
+        (4)$\displaystyle\sum_{k=1}^{n}k^3={\frac{1}{2}n(n+1)}^2$
+
+        (5)$\displaystyle\sum_{k=1}^{n}r^{k-1}=\frac{1-r^n}{1-r}  （r\not=1）$
+
+
+completion_text: |
+
+    # もう一度確認テストを受けてみよう！
+
+    学習が完了した場合、[確認テスト](flow:quiz-test)を受けてください。
