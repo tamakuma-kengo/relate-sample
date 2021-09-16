@@ -15,7 +15,7 @@ pages:
 
 -
     type: Page
-    id: back-flow-week1
+    id: bfweek1
     content: |
 
         #数列の性質（線形性）を確認しよう！
