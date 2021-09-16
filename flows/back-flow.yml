@@ -37,7 +37,7 @@ pages:
 
 -
     type: Page
-    id: back-flow-week2
+    id: bfweek2
     content: |
 
         #数列の和の公式を確認しよう！
