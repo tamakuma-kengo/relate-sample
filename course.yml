@@ -16,7 +16,8 @@ chunks:
 
         #Week 1
 
-        
+
+        [教科書p.1~3](repocur:pdfs/week1.pdf)
         ある規則にしたがって順に並べられた数の列
         $a_1,a_2,a_3\cdots,a_n$を数列といい${a_n}$と表す。
 
@@ -31,7 +32,6 @@ chunks:
 
         というようにシグマ（Σ）を用いて表す。
 
-        [教科書p.1~3](repocur:pdfs/week1.pdf)
         
         <table class="table">
             <tr>
